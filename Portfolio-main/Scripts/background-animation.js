@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // Draw connections
             for (let j = i + 1; j < particles.length; j++) {
                 const p2 = particles[j];
-                const distance = Math.sqrt(Math.pow(p.x - p2.x, 2) + Math.pow(p.y - p2.y, 2);
+                const distance = Math.sqrt(Math.pow(p.x - p2.x, 2) + Math.pow(p.y - p2.y, 2));
                 
                 if (distance < 150) {
                     ctx.beginPath();

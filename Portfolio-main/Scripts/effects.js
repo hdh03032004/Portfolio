@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   
     const phrases = [
-      "Hi, I'm Amr Khaled.",
+      "Hi, I'm Hoang Duc Huy.",
       "A passionate cybersecurity specialist.",
       "A software developer focused on Red Team operations.",
       "Welcome to my portfolio!"

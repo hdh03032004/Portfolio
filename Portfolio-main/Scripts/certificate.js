@@ -140,7 +140,7 @@ document.addEventListener("DOMContentLoaded", function () {
       document.getElementById("certificate-issuer").textContent =
         "Issuer: " + cert.issuer;
       document.getElementById("certificate-date").textContent = cert.date;
-      document.title = cert.title + " Certificate | Amr Khaled";
+      document.title = cert.title + " Certificate | Hoang Duc Huy";
     } else {
       // Redirect if certificate not found
       window.location.href = "certifications.html";
