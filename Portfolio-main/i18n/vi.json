@@ -1,0 +1,54 @@
+{
+  "nav_home": "Trang chủ",
+  "nav_about": "Giới thiệu",
+  "nav_certifications": "Chứng chỉ",
+  "nav_projects": "Dự án",
+  "nav_skills": "Kỹ năng",
+  "nav_contact": "Liên hệ",
+
+  "btn_language": "EN",
+  "btn_contact": "Liên hệ",
+
+  "home_welcome": "Chào mừng đến với Portfolio của tôi",
+  "home_cta": "Khám phá công việc của tôi",
+
+  "about_title": "Về tôi",
+  "about_name": "Hoàng Đức Huy",
+  "about_p1": "Tôi là sinh viên Khoa Máy tính và Trí tuệ Nhân tạo tại Đại học Cairo, tập trung chuyên sâu vào an ninh mạng và phát triển phần mềm.",
+  "about_p2": "Kỹ năng kỹ thuật của tôi bao gồm các ngôn ngữ lập trình như C++, C, Python, SQL, PHP, Java, Swing, Assembly, QT Framework và JavaScript. Tôi đang theo đuổi lĩnh vực phân tích mã độc và kiểm thử xâm nhập web, với niềm đam mê mạnh mẽ dành cho Red Team.",
+  "about_p3": "Tôi không ngừng mở rộng kiến thức thông qua thực hành, các cuộc thi và nghiên cứu trong lĩnh vực an ninh mạng luôn thay đổi.",
+  "about_download_cv": "Tải CV",
+
+  "skills_title": "Kỹ năng",
+  "skills_programming": "Ngôn ngữ lập trình & Script",
+  "skills_web": "Phát triển Web",
+  "skills_cyber": "An ninh mạng",
+  "skills_framework": "Khung An ninh mạng",
+
+  "services_title": "Dịch vụ",
+  "service_tools": "Phát triển công cụ",
+  "service_tools_desc": "Phát triển các công cụ phục vụ hacking và kiểm thử lỗ hổng.",
+  "service_malware": "Phân tích mã độc",
+  "service_malware_desc": "Phân tích hành vi và kỹ thuật tấn công của mã độc.",
+  "service_web": "Phát triển Web",
+  "service_web_desc": "Xây dựng website an toàn và tối ưu.",
+  "service_consulting": "Tư vấn An ninh mạng",
+  "service_consulting_desc": "Đánh giá bảo mật và kiểm thử xâm nhập.",
+  "service_software": "Phát triển phần mềm",
+  "service_software_desc": "Xây dựng các giải pháp phần mềm mạnh mẽ và mở rộng.",
+
+  "education_title": "Học vấn",
+  "education_school": "Đại học HUFLIT",
+  "education_faculty": "Khoa Máy tính và Trí tuệ Nhân tạo",
+  "education_degree": "Cử nhân Khoa học Máy tính",
+  "education_desc": "Chương trình giúp xây dựng nền tảng vững chắc về lập trình, tư duy thuật toán, làm việc nhóm và khoa học máy tính.",
+  "education_grad": "Dự kiến tốt nghiệp: 2027",
+
+  "activities_title": "Hoạt động sinh viên",
+  "activities_dsc": "Ban An ninh mạng DSC",
+  "activities_dsc_desc": "Thành viên tích cực của Ban An ninh mạng thuộc GDSC Đại học Cairo.",
+
+  "contact_title": "Liên hệ",
+
+  "footer_text": "© 2023 Hoàng Đức Huy. Mọi quyền được bảo lưu."
+}

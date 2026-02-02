@@ -1,0 +1,54 @@
+{
+  "nav_home": "Home",
+  "nav_about": "About",
+  "nav_certifications": "Certifications",
+  "nav_projects": "Projects",
+  "nav_skills": "Skills",
+  "nav_contact": "Contact",
+
+  "btn_language": "VN",
+  "btn_contact": "Contact",
+
+  "home_welcome": "Welcome to My Portfolio",
+  "home_cta": "Explore My Work",
+
+  "about_title": "About Me",
+  "about_name": "Hoang Duc Huy",
+  "about_p1": "I am a student at the Faculty of Computers and Artificial Intelligence at Cairo University, with a strong focus on cybersecurity and software development.",
+  "about_p2": "My technical expertise includes programming languages such as C++, C, Python, SQL, PHP, Java, Swing, Assembly, QT Framework, and JavaScript. I am learning malware analysis and web penetration testing, with a strong passion for Red Team operations.",
+  "about_p3": "I am constantly expanding my knowledge through hands-on experience, competitions, and research in the ever-evolving cybersecurity field.",
+  "about_download_cv": "Download CV",
+
+  "skills_title": "Skills",
+  "skills_programming": "Programming Languages & Scripting",
+  "skills_web": "Web Development",
+  "skills_cyber": "Cybersecurity",
+  "skills_framework": "Cybersecurity Framework",
+
+  "services_title": "Services",
+  "service_tools": "Tool Script Development",
+  "service_tools_desc": "Develop tools for hacking and vulnerability testing.",
+  "service_malware": "Malware Analysis",
+  "service_malware_desc": "Analyze malware behavior and attack techniques.",
+  "service_web": "Web Development",
+  "service_web_desc": "Building responsive and secure web applications.",
+  "service_consulting": "Cybersecurity Consulting",
+  "service_consulting_desc": "Providing security assessments and penetration testing.",
+  "service_software": "Software Development",
+  "service_software_desc": "Developing robust and scalable software solutions.",
+
+  "education_title": "Education",
+  "education_school": "HUFLIT University",
+  "education_faculty": "Faculty of Computers and Artificial Intelligence",
+  "education_degree": "Bachelor of Science in Computer Science",
+  "education_desc": "This program builds a strong foundation in programming, problem-solving, teamwork, and core computer science concepts.",
+  "education_grad": "Expected Graduation: 2027",
+
+  "activities_title": "Student Activities",
+  "activities_dsc": "DSC Cyber Committee",
+  "activities_dsc_desc": "Active member of the DSC Cyber Committee at GDSC Cairo University.",
+
+  "contact_title": "Contact Me",
+
+  "footer_text": "© 2023 Hoang Duc Huy. All rights reserved."
+}

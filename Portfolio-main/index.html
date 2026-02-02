@@ -24,18 +24,18 @@
 <body class="software-mode" id="top">
   <!-- Header -->
   <header id="header" data-aos="fade-down" data-aos-duration="800" data-aos-easing="ease-out">
-    <nav>
+    <nav ">
       <div class="header-title" data-aos="fade-right" data-aos-delay="200">Duc Huy</div>
       <button class="menu-icon" id="menu-icon" aria-label="Toggle Menu" data-aos="fade-left" data-aos-delay="200">
         <i class="fas fa-bars"></i>
       </button>
       <div class="header-links" id="header-links">
-        <a href="#home" class="active-link" data-aos="fade-down" data-aos-delay="300">Home</a>
-        <a href="#about" data-aos="fade-down" data-aos-delay="350">About</a>
-        <a href="./pages/certifications.html" data-aos="fade-down" data-aos-delay="400">Certifications</a>
-        <a href="./pages/projects.html" data-aos="fade-down" data-aos-delay="450">Projects</a>
-        <a href="#skills" data-aos="fade-down" data-aos-delay="500">Skills</a>
-        <a href="./pages/contact.html" data-aos="fade-down" data-aos-delay="550">Contact</a>
+        <a href="#home" class="active-link" data-i18n="nav_home" data-aos="fade-down" data-aos-delay="300">Home</a>
+        <a href="#about" data-i18n="nav_about" data-aos="fade-down" data-aos-delay="350">About</a>
+        <a href="./pages/certifications.html" data-i18n="nav_certifications" data-aos="fade-down" data-aos-delay="400">Certifications</a>
+        <a href="./pages/projects.html" data-i18n="nav_projects" data-aos="fade-down" data-aos-delay="450">Projects</a>
+        <a href="#skills" data-i18n="nav_skills" data-aos="fade-down" data-aos-delay="500">Skills</a>
+        <a href="./pages/contact.html" data-i18n="nav_contact" data-aos="fade-down" data-aos-delay="550">Contact</a>
       </div>
       <div class="header-buttons">
         <a href="https://github.com/hdh03032004" target="_blank" aria-label="GitHub" data-aos="fade-left" data-aos-delay="600"><i class="fab fa-github"></i></a>
@@ -44,6 +44,7 @@
         <button id="mode-toggle" title="Switch Mode" aria-label="Switch Mode" data-aos="fade-left" data-aos-delay="700">
           <i class="fas fa-code"></i>
         </button>
+        <button id="lang-toggle" data-i18n="btn_language"></button>
       </div>
     </nav>
   </header>
@@ -65,9 +66,9 @@
     <!-- Home Welcome Section -->
     <section id="home" class="animate__animated animate__fadeIn home-section">
       <div class="home-content" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
-        <h1 data-aos="fade-up" data-aos-delay="300">Welcome to My Portfolio</h1>
+        <h1 data-i18n="home_welcome" data-aos="fade-up" data-aos-delay="300">Welcome to My Portfolio</h1>
         <p id="Effect-Write" data-aos="fade-up" data-aos-delay="400"></p>
-        <p data-aos="fade-up" data-aos-delay="500"><i class="fas fa-bug" style="color: var(--primary-color);"></i></p>
+        <p data-i18n data-aos="fade-up" data-aos-delay="500"><i class="fas fa-bug" style="color: var(--primary-color);"></i></p>
       </div>
 
       <div class="home-content" data-aos="fade-up" data-aos-duration="800" data-aos-delay="600">
@@ -82,19 +83,19 @@
         <img src="images/profile-image.jpg" loading="lazy" alt="Hoang Duc Huy" class="profile-image"
              data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-out">
         <div class="bio" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200" data-aos-easing="ease-out">
-          <h1 data-aos="fade-up" data-aos-delay="300">Hoang Duc Huy</h1>
-          <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+          <h1 data-i18n="home_welcome" data-aos="fade-up" data-aos-delay="300">Hoang Duc Huy</h1>
+          <p data-i18n="about_p1" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
             I am a student at the Faculty of Computers and Artificial Intelligence at Cairo University, with a strong focus on cybersecurity and software development.
           </p>
-          <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="600">
+          <p data-i18n="about_p2" data-aos="fade-up" data-aos-duration="800" data-aos-delay="600">
             My technical expertise includes programming languages such as C++, C, Python, SQL, PHP, Java, Swing, Assembly, QT Framework, and JavaScript. I learning in malware analysis and web penetration testing fields, with a particular passion for Red Team operations in the cybersecurity field.
           </p>
-          <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="800">
+          <p data-i18n="about_p3" data-aos="fade-up" data-aos-duration="800" data-aos-delay="800">
             I am constantly expanding my knowledge through practical experience, competitions, and research in the ever-evolving field of cybersecurity.
           </p>
           <a href="https://raw.githubusercontent.com/Amr-Khaled-Ahmed/Portfolio/main/cv.pdf" download="Amr_Khaled_CV.pdf" class="cta-button"
              data-aos="zoom-in" data-aos-duration="600" data-aos-delay="1000">
-            <i class="fas fa-download"></i> Download CV
+            <i data-i18n="about_download_cv" class="fas fa-download"></i> Download CV
           </a>
         </div>
       </div>
@@ -258,6 +259,7 @@
   <script src="./Scripts/background-animation.js"></script>
   <script src="./Scripts/effects.js" defer></script>
   <script src="./Scripts/scripts.js" defer></script>
+  <script src="./Scripts/lang.js" defer></script>
 
   <!-- Download functionality JavaScript -->
   <script src="./Scripts/downloading.js" defer></script>
